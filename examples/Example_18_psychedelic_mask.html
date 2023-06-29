@@ -47,7 +47,8 @@ function main()
     // it has already been cropped to a square (a requirement for loading
     // images as textures for WebGL)
     tulip = new Image();
-    tulip.src = 'tulip.png';
+    tulip.src = 'http://postimg.cc/phjcqtpm';
+    tulip.crossOrigin = "*";
     tulip.onload = function(){
 
     // Create a WebGL context on the canvas, abort if fail
